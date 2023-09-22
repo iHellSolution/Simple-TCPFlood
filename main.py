@@ -24,7 +24,7 @@ def TCPFlood():
          tcp_socket.send(avi)
          tcp_socket.send(avi)
          tcp_socket.send(avi)
-         for _ in range(times):
+         for _ in range(time):
              tcp_socket.sendall(avi)
              tcp_socket.sendall(avi)
              tcp_socket.sendall(avi)

